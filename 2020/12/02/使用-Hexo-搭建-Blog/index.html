@@ -144,7 +144,7 @@
     <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Kakuro's Blog"><meta name="msapplication-starturl" content="http://example.com"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Kakuro's Blog"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- ### The Open Graph & Twitter Card Protocol ### -->
-    <meta property="og:title" content="使用 Hexo 搭建 Blog | Kakuro&#39;s Blog"><meta property="og:site_name" content="Kakuro&#39;s Blog"><meta property="og:type" content="article"><meta property="og:url" content="http://example.com/2020/12/02/%E4%BD%BF%E7%94%A8-Hexo-%E6%90%AD%E5%BB%BA-Blog/"><meta property="og:locale" content="en"><meta name="description" content="准备1234npm i hexo-cli -ghexo init blogcd bloghexo server  这时候就可以在 localhost:4000 - kakkuro - Kakuro&#39;s Blog"><meta property="article:published_time" content="2020-12-02T11:20:15.000Z"><meta property="article:modified_time" content="2020-12-02T11:27:36.209Z"><meta property="og:updated_time" content="2020-12-02T11:27:36.209Z"><meta property="article:author" content="kakkuro"><meta name="twitter:card" content="summary">
+    <meta property="og:title" content="使用 Hexo 搭建 Blog | Kakuro&#39;s Blog"><meta property="og:site_name" content="Kakuro&#39;s Blog"><meta property="og:type" content="article"><meta property="og:url" content="http://example.com/2020/12/02/%E4%BD%BF%E7%94%A8-Hexo-%E6%90%AD%E5%BB%BA-Blog/"><meta property="og:locale" content="en"><meta name="description" content="准备12345npm i hexo-cli -ghexo init blogcd blognpm ihexo server  这时候就可以在 localhost:4000  网页了，这时候只有一篇 《Hello World》。 配置主题我使用的主题是 Suka ，根据官方文档配置。 开始写文章 1hexo new &quot;new blog&quot;  部署到 GitHub Pages这里我使用的是私有仓库  n - kakkuro - Kakuro&#39;s Blog"><meta property="og:image" content="https://kakkuro.oss-cn-hangzhou.aliyuncs.com/img/typero-2020-12-03_14-12-02.png"><meta property="article:published_time" content="2020-12-02T11:20:15.000Z"><meta property="article:modified_time" content="2020-12-03T06:16:15.256Z"><meta property="og:updated_time" content="2020-12-03T06:16:15.256Z"><meta property="article:author" content="kakkuro"><meta name="twitter:card" content="summary">
 
     
 
@@ -185,7 +185,7 @@
     },
     
     "datePublished": "2020-12-02T11:20:15.000Z",
-    "dateModified": "2020-12-02T11:27:36.209Z",
+    "dateModified": "2020-12-03T06:16:15.256Z",
     "author": {
         "@type": "Person",
         "name": "kakkuro",
@@ -211,7 +211,7 @@
     },
     
     "keywords": "",
-    "description": "准备1234npm i hexo-cli -ghexo init blogcd bloghexo server  这时候就可以在 localhost:4000 - kakkuro - Kakuro&#39;s Blog"
+    "description": "准备12345npm i hexo-cli -ghexo init blogcd blognpm ihexo server  这时候就可以在 localhost:4000  网页了，这时候只有一篇 《Hello World》。 配置主题我使用的主题是 Suka ，根据官方文档配置。 开始写文章 1hexo new &amp;quot;new blog&amp;quot;  部署到 GitHub Pages这里我使用的是私有仓库  n - kakkuro - Kakuro&#39;s Blog"
 }
 </script>
 
@@ -285,13 +285,50 @@
                     
                         
                         
-                            <div id="post-toc"><ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#准备"><span class="post-toc-number">1.</span> <span class="post-toc-text">准备</span></a></li></ol></div>
+                            <div id="post-toc"><ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#准备"><span class="post-toc-number">1.</span> <span class="post-toc-text">准备</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#配置主题"><span class="post-toc-number">2.</span> <span class="post-toc-text">配置主题</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#部署到-GitHub-Pages"><span class="post-toc-number">3.</span> <span class="post-toc-text">部署到 GitHub Pages</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#优化"><span class="post-toc-number">4.</span> <span class="post-toc-text">优化</span></a></li></ol></div>
                         
                     
                     <article id="post-content">
-                        <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+                        <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm i</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<p>这时候就可以在 <code>localhost:4000</code> </p>
+<p>这时候就可以在 <code>localhost:4000</code>  网页了，这时候只有一篇 《Hello World》。</p>
+<h2 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h2><p>我使用的主题是 <a href="https://theme-suka.skk.moe/docs/" target="_blank" rel="noopener">Suka</a> ，根据官方文档配置。</p>
+<p>开始写文章</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new "new blog"</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署到-GitHub-Pages"><a href="#部署到-GitHub-Pages" class="headerlink" title="部署到 GitHub Pages"></a>部署到 GitHub Pages</h2><p>这里我使用的是私有仓库</p>
+<ol>
+<li><code>npm i hexo-deploy-git</code></li>
+<li>在 blog 文件中的 <strong>_config.yml</strong> 添加（覆盖）如下配置</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: https:&#x2F;&#x2F;github.com&#x2F;&lt;username&gt;&#x2F;&lt;project&gt;</span><br><span class="line">	branh: master</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>运行 <code>hexo clean &amp;&amp; hexo deploy</code></li>
+<li>这时候在 <em>username.github.io</em> 上可以查看部署的网页</li>
+</ol>
+<blockquote>
+<p>因为 github page 的 CDN 使用的是 <a href="https://www.fastly.com/" target="_blank" rel="noopener">Fastly</a> 在国内访问不是很理想，所以要优化(PS: 是不是优化错方向了…)</p>
+</blockquote>
+<h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><ul>
+<li>JS &amp; CSS</li>
+</ul>
+<p>blog 的 css 和 js 文件其实都可以通过 <a href="https://www.jsdelivr.com/" target="_blank" rel="noopener">jsDelibr</a> CDN 加速，suka 主题的文档也有关于 CDN 配置的说明，对于部署在 github 的文件，可以直接使用 <code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code> 这样的形式来访问，当然其中的的 <code>repo@version</code> 指的是发行的版本号，也可以直接更换成文件名。</p>
+<ul>
+<li>图床</li>
+</ul>
+<p>在打开网页的时候，除了 github page 感人的加载速度，其中的图片也占用了很多时间。</p>
+<p>在这里是使用了阿里云 OSS 和 <a href="https://picgo.github.io/PicGo-Doc/" target="_blank" rel="noopener">pic-go-core</a> 来在 typora 写 markdown</p>
+<p>文档，方便之处可以直接拖拽图片到 typora 中生成链接</p>
+<ol>
+<li>确保 typora 的版本号在 <code>0.9.86</code> 以上</li>
+<li>然后在 File &gt; Preferences &gt; image 设置</li>
+</ol>
+<p><img src="https://kakkuro.oss-cn-hangzhou.aliyuncs.com/img/typero-2020-12-03_14-12-02.png" alt="typero-2020-12-03_14-12-02"></p>
+<p>配置 Config File ，<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html#%E9%98%BF%E9%87%8C%E4%BA%91oss" target="_blank" rel="noopener">参考</a></p>
+<ol start="3">
+<li>注册阿里云账号<a href="https://zhuanlan.zhihu.com/p/138878534" target="_blank" rel="noopener">配置</a></li>
+</ol>
 
                     </article>
                     
@@ -300,7 +337,7 @@
     <blockquote id="date-expire-notification" class="post-expired-notify">This article was last updated on <span id="date-expire-num"></span> days ago, and the information described in the article may have changed.</blockquote>
     <script>
     (function() {
-        var dateUpdate = Date.parse("2020-12-02");
+        var dateUpdate = Date.parse("2020-12-03");
         var nowDate = new Date();
         var a = nowDate.getTime();
         var b = a - dateUpdate;
@@ -315,6 +352,8 @@
 
 
 <p class="post-footer-info mb-0 pt-0">Published at&nbsp;<time datetime="2020-12-02T11:20:15.000Z" itemprop="datePublished">2020-12-02</time>
+
+    , Updated at&nbsp;<time datetime="2020-12-03T06:16:15.256Z" itemprop="dateModified">2020-12-03</time>
 
 </p>
 <p class="post-footer-info mb-0 pt-2">
